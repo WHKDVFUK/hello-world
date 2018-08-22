@@ -1,0 +1,14 @@
+area = {}
+
+active = True
+
+while active:
+    like = input('where you want to go?')
+    like2 = input ("what's your name?")
+    area[like2]=like
+    
+    repeat = input('yes/no')
+    if repeat == 'no':
+        active = False
+
+print (area)
